@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#d9afed"
+    tools:context=".Buy1">
+
+
+    <View
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        app:srcCompat="@drawable/download__15_" />
+
+    <View
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="PASTEL PURPLE HOODIE"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="370dp"
+        android:layout_height="378dp"
+        android:layout_gravity="center"
+        android:text="What is this? Firstly, a hoodie can act as a sweater to keep you warm. That's because it has long sleeves and the fabric that it's used for them is like the type of material that is used to make clothes for the cold season."
+        android:textSize="20sp" />
+
+</LinearLayout>
